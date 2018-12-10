@@ -47,7 +47,7 @@ class MainActivity : AppCompatActivity() {
                 if (e != null) {
                     //保存失敗
                     AlertDialog.Builder(this@MainActivity)
-                            .setTitle("Notification from NifCloud")
+                            .setTitle("Notification from NIFCLOUD")
                             .setMessage("Error:" + e.message)
                             .setPositiveButton("OK", null)
                             .show()
@@ -55,7 +55,7 @@ class MainActivity : AppCompatActivity() {
                 } else {
                     //保存成功
                     AlertDialog.Builder(this@MainActivity)
-                            .setTitle("Notification from NifCloud")
+                            .setTitle("Notification from NIFCLOUD")
                             .setMessage("Save successfull! with ID:" + obj.objectId)
                             .setPositiveButton("OK", null)
                             .show()
