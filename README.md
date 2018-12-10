@@ -169,4 +169,4 @@ try {
 # License
 
     MITライセンス
-    NIFCloud mobile backendのAndroid SDKのライセンス
+    NIFCLOUD mobile backendのAndroid SDKのライセンス
